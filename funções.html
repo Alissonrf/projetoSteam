@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Steam | Funções</title>
+        <meta charset="utf-8">
+        <meta name = "author" content = "Alisson Flores, Gustavo Martins, Kauan Elias, Vítor Otto">
+        <meta name = "keywords" content = "steam, games, jogos, plataforma de jogos,home,funções">
+        <meta name = "description" content ="Website sobre a plataforma de jogos Steam. Conheça um pouco da história, funcionalidades do programa e jogos exclusivos.">
+        <meta http-equiv="refresh" content="6666">
+        <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+        <style>
+            .img{display: block;margin: 0 auto}
+            #botao{color:white;}
+        </style>
+    </head>
+    <body>
+			<!-- Topo -->
+        <div id="topo">
+					<!-- Logo -->
+            <div id="logo">
+                <a href="index.html"><img src="img/logo.png" alt="logo" height="81" width="263"></a>
+            </div>
+						<!-- Barra de navegação -->
+            <div id="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="historia.html">História</a></li>
+                    <li><a href="jogos_populares.html">Jogos Populares</a></li>
+                    <li><a href="funções.html">Funções</a></li>
+                    <li><a href="curiosidades.html">Curiosidades</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="cadastro.html">Cadastro</a></li>
+                    <li><a href="questionario.html">Ajude-nos a melhorar</a></li>
+                </ul>
+            </div>
+        </div>
+				<!-- Conteúdo principal -->
+        <div id="meio">
+            <h1>Funções da Steam</h1>
+            <hr>
+            <br><br>
+            <img class="img" src="img/funções_steam.png" alt="foto_mapa" usemap="#image-map">
+            <map name="image-map">
+                <area  alt="loja" title="loja" href="#loja" coords="69,35,8,11" shape="rect">
+                <area  alt="biblioteca" title="biblioteca" href="#biblioteca" coords="82,12,211,36" shape="rect">
+                <area  alt="comunidade" title="comunidade" href="#comunidade" coords="225,12,373,36" shape="rect">
+                <area  alt="perfil" title="perfil" href="#perfil" coords="387,10,605,38" shape="rect">
+            </map>
+            <br><br>
+            <h2 id="loja">Loja</h2>
+            <p>Essa aba é o local onde o usuário pode ver os preços e as promoções dos jogos que você deseja comprar, além é claro, de poder ver os jogos lançamentos e os mais vendidos da <strong>Steam</strong>.</p>
+            <img class="img" src="img/loja.jpg" alt="loja" width="50%">
+            <br>
+            <h2 id="biblioteca">Bliblioteca</h2>
+            <p>Essa aba é o local onde o usuário pode ver seus jogos obtidos, os amigos que os possuem, as conquistas disponibilizadas pelo mesmo, e as últimas notícias dos jogos</p>
+            <img class="img" src="img/biblioteca.jpg" alt="biblioteca" width="50%">
+            <br>
+            <h2 id="comunidade">Comunidade</h2>
+            <p>Essa aba é o local onde o usuário pode ver análises, modificações, vídeos, capturas de telas e guias feitas por outros jogadores, além de poder entrar em grupos onde pode interagir com outros usuários.</p>
+            <p>O usuário também tem acesso a um <strong>mercado</strong> exclusivo dos usuários Steam, onde lá ele pode comprar e vender itens e acessórios adquiridos ao longo da jogativa de alguns jogos.</p>
+            <img class="img" src="img/comunidade.png" alt="comunidade" width="50%">
+            <br>
+            <h2 id="perfil">Perfil do Usuário</h2>
+            <p>Essa aba é o local onde o usuário pode ver o perfil de seus amigos e de outras pessoas quem usam a Steam e ver seu próprio inventário, além é claro de poder modificar o seu próprio perfil. Ela funciona como uma rede social, podendo personalisar o que seus amigos enxergarão, compartilhar informações pessoais e mostrar conquistas e elementos dedorativos e colecionaveis dos jogos que possui. <br>Caso interessado, baixe agora a steam:</p>
+            <br><br>
+            <button id="baixar" onclick="baixar();">DOWNLOAD</button>
+						<!-- Botão para baixar o app da steam -->
+            <script>
+                function baixar(){
+                	window.open('https://steamcdn-a.akamaihd.net/client/installer/SteamSetup.exe')
+                }
+            </script>
+        </div>
+				<!-- Parte inferior/informações -->
+        <div id="inferior">
+            <h5>O site oficial da Steam pode ser acessado <a href="https://store.steampowered.com/?l=portuguese">clicando aqui</a>. Lá você poderá aproveitar o grande acervo de jogos e programas, além das outras qualidades descritas no nosso site.</h5>
+            <h6>Contatos: <a href="mailto:Steam.web@gmail.com">Steam.web@gmail.com</a>. Ou se preferir, acesse nossa <a href="contato.html">página de contato</a> </h6>
+            <a id="voltar" href="#topo">Volte ao Topo </a>
+        </div>
+    </body>
+</html>

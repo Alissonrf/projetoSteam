@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Exemplo</title>
+	<meta charset="utf-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script>
+$(document).ready(function(){
+    $("#botao").click(function(){
+    	$("#principal").text("Notícia porcaria!");
+        $("#botao").hide();
+    });
+});
+</script>
+</head>
+<body>
+	<h1>Notícias do Jornal</h1>
+	<h2 id="principal">Principal</h2>
+	<p>Este é o nosso parágrafo principal!</p>
+	<h2>Esportes</h2>
+	<p>Este é o nosso parágrafo sobre esportes!</p>
+	<h2>Policial</h2>
+	<p>Este é o nosso parágrafo policial!</p>
+	<button id="botao">Mudar o título (eu sumo!)</button>
+</body>
+</html>

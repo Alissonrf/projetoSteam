@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Steam | Home</title>
+        <meta charset="utf-8">
+        <meta name = "author" content = "Alisson Flores, Gustavo Martins, Kauan Elias, Vítor Otto">
+        <meta name = "keywords" content = "steam, games, jogos, plataforma de jogos,home">
+        <meta name = "description" content ="Website sobre a plataforma de jogos Steam. Conheça um pouco da história, funcionalidades do programa e jogos exclusivos.">
+        <meta http-equiv="refresh" content="6666">
+        <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+        <style>
+            #banner{display: block;margin: 0 auto;}
+            #portal{text-transform: uppercase;}
+            video,#promo{display: block;
+            margin: 0 auto;}
+        </style>
+    </head>
+    <body>
+			<!--Topo-->
+        <div id="topo">
+					<!--logo-->
+            <div id="logo">
+                <a href="index.html"><img src="img/logo.png" alt="logo" height="81" width="263"></a>
+            </div>
+						<!-- Barra de Navegação-->
+						<div id="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="historia.html">História</a></li>
+                    <li><a href="jogos_populares.html">Jogos Populares</a></li>
+                    <li><a href="funções.html">Funções</a></li>
+                    <li><a href="curiosidades.html">Curiosidades</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="cadastro.html">Cadastro</a></li>
+                    <li><a href="questionario.html">Ajude-nos a melhorar</a></li>
+                </ul>
+            </div>
+        </div>
+				<!-- Conteúdo da Home -->
+        <div id="meio">
+            <h1>Conheça a Steam:</h1>
+            <img id="banner" src="img/steam_banner.jpg" alt="Banner_steam" width="50%"><br><br><br>
+            <hr>
+            <br>
+            <h2> A maior plataforma de games do mundo</h2>
+            <br>
+            <h4>Sobre a página:</h4>
+            <br>
+            <p>Esse site tem o objetivo de demonstrar um pouco do programa <em>Steam</em>, uma plataforma de jogos, demos e outros programas mundialmente conhecida e elogiada. Sinta-se livre para explorar o website se quiser conhecer um pouco mais da <a href="historia.html">história</a>, <a href="jogos_populares.html">jogos populares</a>, <a href="curiosidades.html">curiosidades</a> e <a href="funções.html">funções</a> do programa.</p>
+            <br>
+            <h4>O que é Stem:</h4>
+            <br>
+            <p>A <strong>Steam</strong> é um software de gestão de direitos autorais criado pela <strong>Valve</strong> e é reconhecida como a maior plataforma de jogos do mundo. Em seu acervo ela conta com <span id="over">cerca de 9000</span> jogos em seu acervo, além de diversos softwares de programação. Ela conta em média com <i>8,5 milhões</i> de contas conectadas por dia. A steam é conhecida também por possuir
+                diversos jogos autorais como <em>Half Life</em>, <em>Dota</em>, <em>Counter Stike</em>, <u id="portal">Portal</u>, dentre outros. Veja o trailer do último jogo da saga portal lançado, o <u>Portal 2</u>.</p>
+            <video width="560" controls>
+                <source src="img/portal2.mp4" type="video/mp4">
+            </video>
+            <h4>Os diferenciais:</h4>
+            <br>
+            <p>Quando foi criada, a proposta de vender games de forma legal e integrada era algo revolucionário, mas tornou-se com o tempo algo extremamente necessário para aqueles que preferem jogar no computador. Os preços dos jogos costumam ser muito mais baratos do que as verões em mídia física para outras plataformas. Atualmente o grande diferencial da <strong>Steam</strong> em relação a outras plataformas é sua incrivel <i>comunidade</i> e seu modo família, tornando a experiência de jogar muito mais divertidada e unida , além é claro de movimentar um mercado de venda e troca de itens online. Outro destaque importante são suas  grandes promoções que ocorrem principalmente em datas comemorativas e normalmente contam com preços brutalmente acessiveis.</p>
+            <img id="promo" src="img/summer_sale.jpg" alt="promoção_steam" width="45%">
+						<!--script de um Easter Egg da página "mais de oito mil!!!" -->
+            <script>
+                document.getElementById("over").onclick = function() {nani()};
+
+                function nani() {
+                		document.getElementById("over").innerHTML = "OVER 9000 ";
+                	}
+            </script>
+        </div>
+				<!-- Parte inferior/informações -->
+        <div id="inferior">
+            <h5>O site oficial da Steam pode ser acessado <a href="https://store.steampowered.com/?l=portuguese">clicando aqui</a>. Lá você poderá aproveitar o grande acervo de jogos e programas, além das outras qualidades descritas no nosso site.</h5>
+            <h6>Contatos: <a href="mailto:Steam.web@gmail.com">Steam.web@gmail.com</a>. Ou se preferir, acesse nossa <a href="contato.html">página de contato</a> </h6>
+            <a id="voltar" href="#topo">Volte ao Topo </a>
+        </div>
+    </body>
+</html>

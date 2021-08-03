@@ -1,0 +1,39 @@
+
+<ul>
+
+	<li ><a href="index.html">Home</a></li>
+
+	<li ><a href="historia.html">História</a></li>
+
+	<li><a href="jogos_populares.html">Jogos Populares</a></li>
+
+	<li><a href="funcoes.html">Funções</a></li>
+
+	<li><a href="dicas.html">Dicas</a></li>
+
+	<li><a href="contato.html">Contato</a></li>
+</ul>
+
+#topo{
+	width: 100%;
+	background-color:#171A23;
+	padding:5px;
+	padding-left: 0;
+
+}
+
+#topo li{
+	list-style: none;
+	display:inline-block;
+	padding:10px;
+	font-size: 16px;
+	/*background-color: darkgray;*/
+}
+
+
+li a {
+	text-decoration: none;
+	color: white;
+}
+
+li a:visited{color: white;}

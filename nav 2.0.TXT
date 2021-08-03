@@ -1,0 +1,23 @@
+	/*margin: 0 auto;
+	height: 60px;
+	border: 2px;
+	width:80%;
+	padding: 10px 15px 0px 10px;
+	text-align: center;
+	background-color:	#32669a;
+	border-radius: 1px;
+}*/
+/*.nav a{
+	display: inline;
+	font-size: 19px;
+	padding:5px 50px 10px 5px;
+	padding: 10px 15px 0px 10px;
+	text-align: center;
+	background-color:	#32669a;
+	border-radius: 1px;
+	text-decoration: none;
+	color: white;
+}*/
+/*.nav a:hover{
+	font-weight: bold;
+}*/

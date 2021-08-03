@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Propriedade border</title>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Markazi+Text" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+	<style type="text/css">
+* {
+	margin: 0px;
+	padding: 10px 5px;
+}
+h1, p {
+	font-family: 'Muli', sans-serif;
+}
+div {
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+ul li {
+	display: inline;
+	font-size: 1.5em;
+	font-family: 'Markazi Text', serif;
+}
+ul li:hover {
+	border-bottom: 4px solid black;
+}
+button {
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+button:hover {
+	background-color: black;
+	border-color: white;
+	color: white;
+}
+	</style>
+</head>
+<body>
+<div>
+<ul>
+	<li><a href="#">Home</a></li>
+	<li><a href="quemsomos.html">Quem somos?</a></li>
+	<li><a href="contato.html">Contato</a></li>
+</ul>
+</div>
+<div>
+	<h1>Seja bem-vindo!</h1>
+	<p>Ou não. Clique no botão abaixo para sair da página.</p>
+	<button onclick="javascript:window.close();">Tire-me daqui!</button>
+</div>
+</body>
+</html>

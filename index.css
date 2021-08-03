@@ -1,0 +1,134 @@
+*{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+body{
+	background-color: #12161d;
+}
+p,em,b,i,strong,u,ol li{font-size: 18px;}
+em,i,u{color:#32669a;}
+b,strong {color:#32669a}
+mark{background-color: #32669a; color:white;}
+h1,h2,h3,h4,h5,h6,p,label{color:white}
+
+table{margin: auto; color: white; width: 50%; margin: auto;}
+caption,td,th{text-align: center; font-size: 18px; }
+td{background-color:#5e7eaa;padding: 3px;}
+th{background-color:#32669a;padding: 3px;}
+
+h1{
+	text-align: center;
+	font-size: 30px;
+}
+
+h2{
+	text-align: left;
+	font-size: 22px;
+}
+h3{
+	font-size: 19.5px;
+}
+h4{font-size: 18px;}
+h5{font-size: 15px;}
+h5 a:link, a:visited{color: #1b2533;}
+h6{
+	font-size: 14px;
+}
+
+p{ text-align: justify; font-weight: normal;}
+img:first-child{border: 0px;}
+img{
+		border: 2px solid;
+		border-image-source: url("https://madeirasgasometro.vteximg.com.br/arquivos/ids/158137-1000-1000/produto-laminado-pertech-pp0060-branco-br.jpg?v=635296310056430000");
+		border-image-slice: 27 27;
+}
+
+label{font-size: 15px;}
+input,textarea{border-radius: 2px; text-align: center; font-size: 15px;}
+
+#python{color: white;}
+
+ol li{
+	font-style: normal;
+	color: white;
+}
+
+fieldset{
+	border-radius: 7px; width: 550px;
+	margin: 0 auto;
+	background-image:url("http://html-color.org/43639A.jpg");
+	background-repeat:no-repeat;
+	background-size:100%;
+	background-position:center;
+}
+input:focus{background-color:#c4c8ce;}
+
+
+a:link{color:#666666;text-decoration: none; font-size:}
+a:visited{color:#666666;text-decoration: none;}
+a:active{color:#666666;font-weight: bold;}
+
+
+#topo:only-child{
+	width:auto;
+	height:180px;
+	background-color:#12161d;
+	padding:10px;
+	border:5px;
+}
+#logo{padding: 10px 10px 25px 25px;}
+
+#nav{
+	width: 80%;
+	text-align:center;
+	margin: auto auto;
+	background-color: #32669a;
+	padding: 10px 26px 10px 26px;
+	border-radius: 2px;
+}
+
+#nav ul li{
+	list-style: none;
+	display: inline;
+	font-size: 20px;
+	padding:8px 20px;
+}
+#nav ul li:hover{
+	border-bottom: 4px solid white;
+}
+#nav ul li a,#nav ul li a:visited{
+	text-decoration: none;
+	color: white;
+}
+
+#meio{
+	margin: 15px auto 0px auto;
+	width:80%;
+	padding: 20px;
+	background-color:#1b2533;
+	border-radius: 2px;
+	overflow: hidden;
+}
+#inferior{
+	margin: 0 auto;
+	height: auto;
+	width:80%;
+	padding: 20px;
+	background-color:#5e7eaa;
+}
+#voltar{
+	background-color: #32669a;
+	color: white;
+	padding: 25px 45px;
+	border-radius: 8px;
+	position: relative;
+	bottom: 45px;
+	left:1250px;
+}
+#baixar{
+	background-color:#32669a;
+	border-radius: 3px;
+	padding: 10px 20px;
+	border:0px;
+	color:white;
+}

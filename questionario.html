@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Steam | Questionário</title>
+        <meta charset="utf-8">
+        <meta name = "author" content = "Alisson Flores, Gustavo Martins, Kauan Elias, Vítor Otto">
+        <meta name = "keywords" content = "steam, games, jogos, plataforma de jogos, questionario,formulario,ajude-nos a melhorar">
+        <meta name = "description" content ="Website sobre a plataforma de jogos Steam. Conheça um pouco da história, funcionalidades do programa e jogos exclusivos.">
+        <meta http-equiv="refresh" content="6666">
+        <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+        <style>
+            #pesquisa{text-align: center;
+            }
+            #centra{text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+			<!--Topo-->
+        <div id="topo">
+					<!-- Logo -->
+            <div id="logo">
+                <a href="index.html"><img src="img/logo.png" alt="logo" height="81" width="263"></a>
+            </div>
+						<!-- Barra de navegação -->
+            <div id="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="historia.html">História</a></li>
+                    <li><a href="jogos_populares.html">Jogos Populares</a></li>
+                    <li><a href="funções.html">Funções</a></li>
+                    <li><a href="curiosidades.html">Curiosidades</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="cadastro.html">Cadastro</a></li>
+                    <li><a href="questionario.html">Ajude-nos a melhorar</a></li>
+                </ul>
+            </div>
+        </div>
+				<!-- Conteúdo principal do formulario de pesquisa sobre o usuário-->
+        <div id="meio">
+            <h1>Formulário de Pesquisa</h1>
+            <hr>
+            <h2 id="centra">Questionário</h2>
+            <h3>Ajude-nos a melhorar:</h3>
+            <p>Você faz parte desse website, então de seu <b>feedback</b> a respeito. Preencha esse questionario se quiser nos ajudar a melhorar. </p>
+            <form id="pesquisa">
+                <fieldset>
+                <br>
+                <label>Qual é seu jogo favorito?</label><br><br>
+                <input type="text" name="favorito" placeholder="Ex.: GTA V" size="30" autofocus>
+                <br><br>
+                <label>Qual é seu gênero de jogos favorito?</label><br><br>
+                <input list="games">
+                <datalist id="games">
+                    <option value="gratuito">
+                    <option value="aventura">
+                    <option value="casual">
+                    <option value="ação">
+                    <option value="corrida">
+                    <option value="esportes">
+                    <option value="estratégia">
+                    <option value="indie">
+                    <option value="MMO">
+                    <option value="RPG">
+                    <option value="simulação">
+                    <option value="FPS">
+                    <option value="moba">
+                    <option value="sandbox">
+                </datalist>
+                <br><br>
+								<!-- Pedindo cor favorita-->
+                <label> Qual é a sua cor favorita?</label><br><br>
+                <input type="color" name="cor" size="40">
+                <br><br>
+                <label>Você costuma usar a Steam para:</label><br><br>
+                <input type="radio" name="tipo">
+                <label>Jogar</label>
+                <input type="radio" name="tipo">
+                <label>Usar aplicativos</label>
+                <input type="radio" name="tipo" >
+                <label>Conversar com amigos</label>
+                <input type="radio" name="tipo">
+                <label>Outros</label>
+                <br><br>
+                <label>Quantas horas você costuma jogar por dia?</label><br><br>
+                <input type="number" name="horas" max="24" min="0">
+                <br><br>
+								<!-- Pedindo para dar uma nota -->
+                <label>Que nota você daria para o site?</label><br><br>
+                <select>
+                <option value="Selecione uma opção" selected="selected">Selecione uma opção</option>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                </select>
+                <br><br>
+                <input type="submit" name="enviar" value="enviar">
+                <input type="reset" name="limpar" value="limpar">
+							</fieldset>
+            </form>
+        </div>
+				<!-- Parte inferior/informações -->
+        <div id="inferior">
+            <h5>O site oficial da Steam pode ser acessado <a href="https://store.steampowered.com/?l=portuguese">clicando aqui</a>. Lá você poderá aproveitar o grande acervo de jogos e programas, além das outras qualidades descritas no nosso site.</h5>
+            <h6>Contatos: <a href="mailto:Steam.web@gmail.com">Steam.web@gmail.com</a>. Ou se preferir, acesse nossa <a href="contato.html">página de contato</a> </h6>
+            <a id="voltar" href="#topo">Volte ao Topo </a>
+        </div>
+    </body>
+</html>
